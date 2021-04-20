@@ -2,6 +2,7 @@ name: JD_Sign_Action
 
 on:
   repository_dispatch:
+  workflow_dispatch: # 手动触发
   release:
     types: published
   # push:
