@@ -17,7 +17,7 @@ env:
   JD_COOKIE: ${{ secrets.JD_COOKIE }}
   JD_DUAL_COOKIE: ${{ secrets.JD_DUAL_COOKIE }}
   PUSH_KEY: ${{ secrets.PUSH_KEY }}
-  UPLOAD_BESULT_DIR: true
+  UPLOAD_BESULT_DIR: false
 
 jobs:
     build:
